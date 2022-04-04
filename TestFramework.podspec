@@ -10,7 +10,7 @@ Pod::Spec.new do |spec|
   spec.platform         = :ios, '14.6'
   spec.source           = { :git => 'https://github.com/fernandocani/TestFramework.git', :tag => spec.version }
 
-  spec.source_files     = 'TestFramework/**/*.{swift,xib,h}'
+  spec.source_files     = 'Source/**/*.{swift,xib}'
   spec.swift_versions   = '5.0'
   
 end
